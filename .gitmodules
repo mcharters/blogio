@@ -1,0 +1,3 @@
+[submodule "lib/MWFeedParser"]
+	path = lib/MWFeedParser
+	url = git@github.com:mcharters/MWFeedParser.git
