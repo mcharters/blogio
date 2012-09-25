@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92728BB15605E120076E0CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92728BA15605E120076E0CE /* UIKit.framework */; };
+		C92728BD15605E120076E0CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92728BC15605E120076E0CE /* Foundation.framework */; };
+		C92728BF15605E120076E0CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92728BE15605E120076E0CE /* CoreGraphics.framework */; };
+		C92728C515605E130076E0CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C92728C315605E130076E0CE /* InfoPlist.strings */; };
+		C92728C715605E130076E0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728C615605E130076E0CE /* main.m */; };
+		C92728CB15605E130076E0CE /* BIOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728CA15605E130076E0CE /* BIOAppDelegate.m */; };
+		C92728CE15605E130076E0CE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92728CC15605E130076E0CE /* MainStoryboard_iPhone.storyboard */; };
+		C92728D115605E130076E0CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92728CF15605E130076E0CE /* MainStoryboard_iPad.storyboard */; };
+		C92728D415605E130076E0CE /* BIOWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728D315605E130076E0CE /* BIOWeekViewController.m */; };
+		C92728DB15605E130076E0CE /* BIOFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728DA15605E130076E0CE /* BIOFeedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9067ECE15D6C56400CFF250 /* BIOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOConstants.h; sourceTree = "<group>"; };
+		C92728B615605E120076E0CE /* blogio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92728BA15605E120076E0CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C92728BC15605E120076E0CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C92728BE15605E120076E0CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C92728C215605E130076E0CE /* blogio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blogio-Info.plist"; sourceTree = "<group>"; };
+		C92728C415605E130076E0CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C92728C615605E130076E0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C92728C815605E130076E0CE /* blogio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "blogio-Prefix.pch"; sourceTree = "<group>"; };
+		C92728C915605E130076E0CE /* BIOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIOAppDelegate.h; sourceTree = "<group>"; };
+		C92728CA15605E130076E0CE /* BIOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOAppDelegate.m; sourceTree = "<group>"; };
+		C92728CD15605E130076E0CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C92728D015605E130076E0CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C92728D215605E130076E0CE /* BIOWeekViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIOWeekViewController.h; sourceTree = "<group>"; };
+		C92728D315605E130076E0CE /* BIOWeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOWeekViewController.m; sourceTree = "<group>"; };
+		C92728D915605E130076E0CE /* BIOFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIOFeedViewController.h; sourceTree = "<group>"; };
+		C92728DA15605E130076E0CE /* BIOFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOFeedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92728B315605E120076E0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92728BB15605E120076E0CE /* UIKit.framework in Frameworks */,
+				C92728BD15605E120076E0CE /* Foundation.framework in Frameworks */,
+				C92728BF15605E120076E0CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92728AB15605E120076E0CE = {
+			isa = PBXGroup;
+			children = (
+				C92728C015605E120076E0CE /* blogio */,
+				C92728B915605E120076E0CE /* Frameworks */,
+				C92728B715605E120076E0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C92728B715605E120076E0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92728B615605E120076E0CE /* blogio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92728B915605E120076E0CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92728BA15605E120076E0CE /* UIKit.framework */,
+				C92728BC15605E120076E0CE /* Foundation.framework */,
+				C92728BE15605E120076E0CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C92728C015605E120076E0CE /* blogio */ = {
+			isa = PBXGroup;
+			children = (
+				C92728C915605E130076E0CE /* BIOAppDelegate.h */,
+				C92728CA15605E130076E0CE /* BIOAppDelegate.m */,
+				C92728CC15605E130076E0CE /* MainStoryboard_iPhone.storyboard */,
+				C92728CF15605E130076E0CE /* MainStoryboard_iPad.storyboard */,
+				C92728D215605E130076E0CE /* BIOWeekViewController.h */,
+				C92728D315605E130076E0CE /* BIOWeekViewController.m */,
+				C92728D915605E130076E0CE /* BIOFeedViewController.h */,
+				C92728DA15605E130076E0CE /* BIOFeedViewController.m */,
+				C92728C115605E130076E0CE /* Supporting Files */,
+				C9067ECE15D6C56400CFF250 /* BIOConstants.h */,
+			);
+			path = blogio;
+			sourceTree = "<group>";
+		};
+		C92728C115605E130076E0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C92728C215605E130076E0CE /* blogio-Info.plist */,
+				C92728C315605E130076E0CE /* InfoPlist.strings */,
+				C92728C615605E130076E0CE /* main.m */,
+				C92728C815605E130076E0CE /* blogio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C92728B515605E120076E0CE /* blogio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92728E215605E130076E0CE /* Build configuration list for PBXNativeTarget "blogio" */;
+			buildPhases = (
+				C92728B215605E120076E0CE /* Sources */,
+				C92728B315605E120076E0CE /* Frameworks */,
+				C92728B415605E120076E0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blogio;
+			productName = blogio;
+			productReference = C92728B615605E120076E0CE /* blogio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92728AD15605E120076E0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BIO;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C92728B015605E120076E0CE /* Build configuration list for PBXProject "blogio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C92728AB15605E120076E0CE;
+			productRefGroup = C92728B715605E120076E0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92728B515605E120076E0CE /* blogio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92728B415605E120076E0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92728C515605E130076E0CE /* InfoPlist.strings in Resources */,
+				C92728CE15605E130076E0CE /* MainStoryboard_iPhone.storyboard in Resources */,
+				C92728D115605E130076E0CE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92728B215605E120076E0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92728C715605E130076E0CE /* main.m in Sources */,
+				C92728CB15605E130076E0CE /* BIOAppDelegate.m in Sources */,
+				C92728D415605E130076E0CE /* BIOWeekViewController.m in Sources */,
+				C92728DB15605E130076E0CE /* BIOFeedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C92728C315605E130076E0CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92728C415605E130076E0CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C92728CC15605E130076E0CE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92728CD15605E130076E0CE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C92728CF15605E130076E0CE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C92728D015605E130076E0CE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C92728E015605E130076E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C92728E115605E130076E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C92728E315605E130076E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blogio/blogio-Prefix.pch";
+				INFOPLIST_FILE = "blogio/blogio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C92728E415605E130076E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blogio/blogio-Prefix.pch";
+				INFOPLIST_FILE = "blogio/blogio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92728B015605E120076E0CE /* Build configuration list for PBXProject "blogio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92728E015605E130076E0CE /* Debug */,
+				C92728E115605E130076E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92728E215605E130076E0CE /* Build configuration list for PBXNativeTarget "blogio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92728E315605E130076E0CE /* Debug */,
+				C92728E415605E130076E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C92728AD15605E120076E0CE /* Project object */;
+}
