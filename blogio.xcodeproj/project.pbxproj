@@ -17,6 +17,13 @@
 		C92728D115605E130076E0CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92728CF15605E130076E0CE /* MainStoryboard_iPad.storyboard */; };
 		C92728D415605E130076E0CE /* BIOWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728D315605E130076E0CE /* BIOWeekViewController.m */; };
 		C92728DB15605E130076E0CE /* BIOFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728DA15605E130076E0CE /* BIOFeedViewController.m */; };
+		C9DAACF516628C760060CDCA /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACEF16628C760060CDCA /* MWFeedInfo.m */; };
+		C9DAACF616628C760060CDCA /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACF116628C760060CDCA /* MWFeedItem.m */; };
+		C9DAACF716628C760060CDCA /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACF416628C760060CDCA /* MWFeedParser.m */; };
+		C9DAACFE16628CB20060CDCA /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACF916628CB20060CDCA /* GTMNSString+HTML.m */; };
+		C9DAACFF16628CB20060CDCA /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFB16628CB20060CDCA /* NSDate+InternetDateTime.m */; };
+		C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFD16628CB20060CDCA /* NSString+HTML.m */; };
+		C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,21 @@
 		C92728D315605E130076E0CE /* BIOWeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOWeekViewController.m; sourceTree = "<group>"; };
 		C92728D915605E130076E0CE /* BIOFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIOFeedViewController.h; sourceTree = "<group>"; };
 		C92728DA15605E130076E0CE /* BIOFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOFeedViewController.m; sourceTree = "<group>"; };
+		C9DAACEE16628C760060CDCA /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedInfo.h; path = lib/MWFeedParser/Classes/MWFeedInfo.h; sourceTree = "<group>"; };
+		C9DAACEF16628C760060CDCA /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedInfo.m; path = lib/MWFeedParser/Classes/MWFeedInfo.m; sourceTree = "<group>"; };
+		C9DAACF016628C760060CDCA /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedItem.h; path = lib/MWFeedParser/Classes/MWFeedItem.h; sourceTree = "<group>"; };
+		C9DAACF116628C760060CDCA /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedItem.m; path = lib/MWFeedParser/Classes/MWFeedItem.m; sourceTree = "<group>"; };
+		C9DAACF216628C760060CDCA /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedParser_Private.h; path = lib/MWFeedParser/Classes/MWFeedParser_Private.h; sourceTree = "<group>"; };
+		C9DAACF316628C760060CDCA /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedParser.h; path = lib/MWFeedParser/Classes/MWFeedParser.h; sourceTree = "<group>"; };
+		C9DAACF416628C760060CDCA /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedParser.m; path = lib/MWFeedParser/Classes/MWFeedParser.m; sourceTree = "<group>"; };
+		C9DAACF816628CB20060CDCA /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "lib/MWFeedParser/Classes/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		C9DAACF916628CB20060CDCA /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "lib/MWFeedParser/Classes/GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		C9DAACFA16628CB20060CDCA /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+InternetDateTime.h"; path = "lib/MWFeedParser/Classes/NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		C9DAACFB16628CB20060CDCA /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "lib/MWFeedParser/Classes/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		C9DAACFC16628CB20060CDCA /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "lib/MWFeedParser/Classes/NSString+HTML.h"; sourceTree = "<group>"; };
+		C9DAACFD16628CB20060CDCA /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "lib/MWFeedParser/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
+		C9DAAD0116628CE90060CDCA /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +95,7 @@
 		C92728B915605E120076E0CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9DAACE816628B890060CDCA /* MWFeedParser */,
 				C92728BA15605E120076E0CE /* UIKit.framework */,
 				C92728BC15605E120076E0CE /* Foundation.framework */,
 				C92728BE15605E120076E0CE /* CoreGraphics.framework */,
@@ -106,6 +129,28 @@
 				C92728C815605E130076E0CE /* blogio-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9DAACE816628B890060CDCA /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				C9DAAD0116628CE90060CDCA /* NSString+XMLEntities.h */,
+				C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */,
+				C9DAACF816628CB20060CDCA /* GTMNSString+HTML.h */,
+				C9DAACF916628CB20060CDCA /* GTMNSString+HTML.m */,
+				C9DAACFA16628CB20060CDCA /* NSDate+InternetDateTime.h */,
+				C9DAACFB16628CB20060CDCA /* NSDate+InternetDateTime.m */,
+				C9DAACFC16628CB20060CDCA /* NSString+HTML.h */,
+				C9DAACFD16628CB20060CDCA /* NSString+HTML.m */,
+				C9DAACEE16628C760060CDCA /* MWFeedInfo.h */,
+				C9DAACEF16628C760060CDCA /* MWFeedInfo.m */,
+				C9DAACF016628C760060CDCA /* MWFeedItem.h */,
+				C9DAACF116628C760060CDCA /* MWFeedItem.m */,
+				C9DAACF216628C760060CDCA /* MWFeedParser_Private.h */,
+				C9DAACF316628C760060CDCA /* MWFeedParser.h */,
+				C9DAACF416628C760060CDCA /* MWFeedParser.m */,
+			);
+			name = MWFeedParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +221,13 @@
 				C92728CB15605E130076E0CE /* BIOAppDelegate.m in Sources */,
 				C92728D415605E130076E0CE /* BIOWeekViewController.m in Sources */,
 				C92728DB15605E130076E0CE /* BIOFeedViewController.m in Sources */,
+				C9DAACF516628C760060CDCA /* MWFeedInfo.m in Sources */,
+				C9DAACF616628C760060CDCA /* MWFeedItem.m in Sources */,
+				C9DAACF716628C760060CDCA /* MWFeedParser.m in Sources */,
+				C9DAACFE16628CB20060CDCA /* GTMNSString+HTML.m in Sources */,
+				C9DAACFF16628CB20060CDCA /* NSDate+InternetDateTime.m in Sources */,
+				C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */,
+				C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
