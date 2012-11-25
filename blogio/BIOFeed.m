@@ -7,10 +7,12 @@
 //
 
 #import "BIOFeed.h"
+#import "MWFeedParser.h"
 
-@interface BIOFeed ()
+@interface BIOFeed () <MWFeedParserDelegate>
 
 @property (strong, nonatomic) NSString *url;
+@property (strong, nonatomic) MWFeedParser *parser;
 
 @end
 
@@ -20,9 +22,37 @@
     self = [self init];
     if(self) {
         _url = url;
+        _parser = [[MWFeedParser alloc] initWithFeedURL:[NSURL URLWithString:_url]];
+        _parser.delegate = self;
+        _parser.feedParseType = ParseTypeFull;
+        _parser.connectionType = ConnectionTypeAsynchronously;
     }
     
     return self;
+}
+
+- (void)reload {
+    [self.parser parse];
+}
+
+- (void)feedParserDidStart:(MWFeedParser *)parser {
+    NSLog(@"Parser started");
+}
+
+- (void)feedParser:(MWFeedParser *)parser didParseFeedInfo:(MWFeedInfo *)info {
+    NSLog(@"Got info: %@", [info description]);
+}
+
+- (void)feedParser:(MWFeedParser *)parser didParseFeedItem:(MWFeedItem *)item {
+    NSLog(@"Got item: %@", [item description]);
+}
+
+- (void)feedParserDidFinish:(MWFeedParser *)parser {
+    NSLog(@"Parser finished");
+}
+
+- (void)feedParser:(MWFeedParser *)parser didFailWithError:(NSError *)error {
+    NSLog(@"Parser error: %@", [error localizedDescription]);
 }
 
 @end

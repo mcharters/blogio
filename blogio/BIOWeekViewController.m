@@ -9,8 +9,11 @@
 #import "BIOWeekViewController.h"
 #import "BIOConstants.h"
 #import "BIOAddFeedViewController.h"
+#import "BIOFeedCollection.h"
 
 @interface BIOWeekViewController () <BIOAddFeedViewControllerDelegate>
+
+@property (strong, nonatomic) BIOFeedCollection *feedCollection;
 
 @end
 
@@ -20,12 +23,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.feedCollection = [[BIOFeedCollection alloc] init];
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    
+    self.feedCollection = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -89,6 +95,7 @@
 
 - (void)addFeedControllerDidFinish:(BIOAddFeedViewController *)controller feedURL:(NSString *)feedURL {
     [self dismissViewControllerAnimated:YES completion:nil];
+    [self.feedCollection addFeedWithURL:feedURL];
 }
 
 @end

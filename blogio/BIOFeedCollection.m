@@ -31,7 +31,10 @@
 }
 
 - (void)addFeedWithURL:(NSString *)feedURL {
-    [self.feeds addObject:[[BIOFeed alloc] initWithURL:feedURL]];
+    BIOFeed *newFeed = [[BIOFeed alloc] initWithURL:feedURL];
+    [newFeed reload];
+    
+    [self.feeds addObject:newFeed];
 }
 
 - (BIOFeed*)feedAtIndex:(NSUInteger)index {

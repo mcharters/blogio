@@ -11,5 +11,6 @@
 @interface BIOFeed : NSObject
 
 - (id)initWithURL:(NSString*)url;
+- (void)reload;
 
 @end
