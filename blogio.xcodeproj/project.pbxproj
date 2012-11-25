@@ -25,6 +25,8 @@
 		C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFD16628CB20060CDCA /* NSString+HTML.m */; };
 		C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */; };
 		C9FFB8A11662A9450072CCB6 /* BIOAddFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */; };
+		C9FFB8A51662B0D80072CCB6 /* BIOFeedCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A41662B0D80072CCB6 /* BIOFeedCollection.m */; };
+		C9FFB8A81662B2080072CCB6 /* BIOFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A71662B2070072CCB6 /* BIOFeed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,10 @@
 		C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.m"; sourceTree = "<group>"; };
 		C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOAddFeedViewController.h; sourceTree = "<group>"; };
 		C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOAddFeedViewController.m; sourceTree = "<group>"; };
+		C9FFB8A31662B0D80072CCB6 /* BIOFeedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOFeedCollection.h; sourceTree = "<group>"; };
+		C9FFB8A41662B0D80072CCB6 /* BIOFeedCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOFeedCollection.m; sourceTree = "<group>"; };
+		C9FFB8A61662B2070072CCB6 /* BIOFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOFeed.h; sourceTree = "<group>"; };
+		C9FFB8A71662B2070072CCB6 /* BIOFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOFeed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,10 @@
 				C9067ECE15D6C56400CFF250 /* BIOConstants.h */,
 				C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */,
 				C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */,
+				C9FFB8A31662B0D80072CCB6 /* BIOFeedCollection.h */,
+				C9FFB8A41662B0D80072CCB6 /* BIOFeedCollection.m */,
+				C9FFB8A61662B2070072CCB6 /* BIOFeed.h */,
+				C9FFB8A71662B2070072CCB6 /* BIOFeed.m */,
 			);
 			path = blogio;
 			sourceTree = "<group>";
@@ -234,6 +244,8 @@
 				C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */,
 				C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */,
 				C9FFB8A11662A9450072CCB6 /* BIOAddFeedViewController.m in Sources */,
+				C9FFB8A51662B0D80072CCB6 /* BIOFeedCollection.m in Sources */,
+				C9FFB8A81662B2080072CCB6 /* BIOFeed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
