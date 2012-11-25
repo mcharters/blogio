@@ -24,6 +24,7 @@
 		C9DAACFF16628CB20060CDCA /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFB16628CB20060CDCA /* NSDate+InternetDateTime.m */; };
 		C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFD16628CB20060CDCA /* NSString+HTML.m */; };
 		C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */; };
+		C9FFB8A11662A9450072CCB6 /* BIOAddFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		C9DAACFD16628CB20060CDCA /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "lib/MWFeedParser/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
 		C9DAAD0116628CE90060CDCA /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.h"; sourceTree = "<group>"; };
 		C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOAddFeedViewController.h; sourceTree = "<group>"; };
+		C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOAddFeedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				C92728DA15605E130076E0CE /* BIOFeedViewController.m */,
 				C92728C115605E130076E0CE /* Supporting Files */,
 				C9067ECE15D6C56400CFF250 /* BIOConstants.h */,
+				C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */,
+				C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */,
 			);
 			path = blogio;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				C9DAACFF16628CB20060CDCA /* NSDate+InternetDateTime.m in Sources */,
 				C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */,
 				C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */,
+				C9FFB8A11662A9450072CCB6 /* BIOAddFeedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,9 @@
 
 #import "BIOWeekViewController.h"
 #import "BIOConstants.h"
+#import "BIOAddFeedViewController.h"
 
-@interface BIOWeekViewController ()
+@interface BIOWeekViewController () <BIOAddFeedViewControllerDelegate>
 
 @end
 
@@ -73,6 +74,21 @@
     }
     
     return dayCell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if([segue.identifier isEqualToString:@"AddFeedSegue"]) {
+        BIOAddFeedViewController *addController = (BIOAddFeedViewController*)[((UINavigationController*)[segue destinationViewController]) topViewController];
+        addController.delegate = self;
+    }
+}
+
+- (void)addFeedControllerDidCancel:(BIOAddFeedViewController *)controller {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)addFeedControllerDidFinish:(BIOAddFeedViewController *)controller feedURL:(NSString *)feedURL {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
