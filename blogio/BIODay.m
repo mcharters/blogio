@@ -93,4 +93,8 @@ static NSArray *weekdays;
     return NO;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    return [BIODay dayWithWeekday:self.weekday];
+}
+
 @end

@@ -8,6 +8,8 @@
 
 #import "BIOFeed.h"
 #import "MWFeedParser.h"
+#import "BIOTrackCollection.h"
+#import "BIODay.h"
 
 @interface BIOFeed () <MWFeedParserDelegate>
 
@@ -39,21 +41,28 @@
 }
 
 - (void)feedParserDidStart:(MWFeedParser *)parser {
-    NSLog(@"Parser started");
 }
 
 - (void)feedParser:(MWFeedParser *)parser didParseFeedInfo:(MWFeedInfo *)info {
-    NSLog(@"Got info: %@", [info description]);
 }
 
-- (void)feedParser:(MWFeedParser *)parser didParseFeedItem:(MWFeedItem *)item {
-    NSLog(@"Got item: %@", [item description]);
-    
-    
+- (void)feedParser:(MWFeedParser *)parser didParseFeedItem:(MWFeedItem *)item {    
+    if([item.enclosures count] > 0) {
+        // we have some sort of attached file
+        // find out what day this file was attached
+        NSDateComponents *weekdayComponents = [self.cal components:NSWeekdayCalendarUnit fromDate:item.date];
+        BIODay *day = [[BIODay weekdays] objectAtIndex:[weekdayComponents weekday]];
+        
+        BIOTrackCollection *tracks = [BIOTrackCollection sharedInstance];
+        for (NSDictionary *enclosure in item.enclosures) {
+            NSString *trackURL = [enclosure objectForKey:@"url"];
+            NSLog(@"Adding track %@ on %@", trackURL, day);
+            [tracks addTrack:trackURL forDay:day];
+        }
+    }
 }
 
 - (void)feedParserDidFinish:(MWFeedParser *)parser {
-    NSLog(@"Parser finished");
 }
 
 - (void)feedParser:(MWFeedParser *)parser didFailWithError:(NSError *)error {

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BIODay : NSObject
+@interface BIODay : NSObject <NSCopying>
 
 + (NSArray*)weekdays;
 
