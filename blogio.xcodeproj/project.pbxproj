@@ -17,6 +17,7 @@
 		C92728D115605E130076E0CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92728CF15605E130076E0CE /* MainStoryboard_iPad.storyboard */; };
 		C92728D415605E130076E0CE /* BIOWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728D315605E130076E0CE /* BIOWeekViewController.m */; };
 		C92728DB15605E130076E0CE /* BIOFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728DA15605E130076E0CE /* BIOFeedViewController.m */; };
+		C959233216988AEE008C99CE /* BIODay.m in Sources */ = {isa = PBXBuildFile; fileRef = C959233116988AED008C99CE /* BIODay.m */; };
 		C9DAACF516628C760060CDCA /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACEF16628C760060CDCA /* MWFeedInfo.m */; };
 		C9DAACF616628C760060CDCA /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACF116628C760060CDCA /* MWFeedItem.m */; };
 		C9DAACF716628C760060CDCA /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACF416628C760060CDCA /* MWFeedParser.m */; };
@@ -30,7 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C9067ECE15D6C56400CFF250 /* BIOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOConstants.h; sourceTree = "<group>"; };
 		C92728B615605E120076E0CE /* blogio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92728BA15605E120076E0CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C92728BC15605E120076E0CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +47,8 @@
 		C92728D315605E130076E0CE /* BIOWeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOWeekViewController.m; sourceTree = "<group>"; };
 		C92728D915605E130076E0CE /* BIOFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIOFeedViewController.h; sourceTree = "<group>"; };
 		C92728DA15605E130076E0CE /* BIOFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOFeedViewController.m; sourceTree = "<group>"; };
+		C959233016988AED008C99CE /* BIODay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIODay.h; sourceTree = "<group>"; };
+		C959233116988AED008C99CE /* BIODay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIODay.m; sourceTree = "<group>"; };
 		C9DAACEE16628C760060CDCA /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedInfo.h; path = lib/MWFeedParser/Classes/MWFeedInfo.h; sourceTree = "<group>"; };
 		C9DAACEF16628C760060CDCA /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MWFeedInfo.m; path = lib/MWFeedParser/Classes/MWFeedInfo.m; sourceTree = "<group>"; };
 		C9DAACF016628C760060CDCA /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MWFeedItem.h; path = lib/MWFeedParser/Classes/MWFeedItem.h; sourceTree = "<group>"; };
@@ -124,13 +126,14 @@
 				C92728D915605E130076E0CE /* BIOFeedViewController.h */,
 				C92728DA15605E130076E0CE /* BIOFeedViewController.m */,
 				C92728C115605E130076E0CE /* Supporting Files */,
-				C9067ECE15D6C56400CFF250 /* BIOConstants.h */,
 				C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */,
 				C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */,
 				C9FFB8A31662B0D80072CCB6 /* BIOFeedCollection.h */,
 				C9FFB8A41662B0D80072CCB6 /* BIOFeedCollection.m */,
 				C9FFB8A61662B2070072CCB6 /* BIOFeed.h */,
 				C9FFB8A71662B2070072CCB6 /* BIOFeed.m */,
+				C959233016988AED008C99CE /* BIODay.h */,
+				C959233116988AED008C99CE /* BIODay.m */,
 			);
 			path = blogio;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				C9FFB8A11662A9450072CCB6 /* BIOAddFeedViewController.m in Sources */,
 				C9FFB8A51662B0D80072CCB6 /* BIOFeedCollection.m in Sources */,
 				C9FFB8A81662B2080072CCB6 /* BIOFeed.m in Sources */,
+				C959233216988AEE008C99CE /* BIODay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

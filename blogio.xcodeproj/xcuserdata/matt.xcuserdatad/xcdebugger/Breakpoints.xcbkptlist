@@ -4,15 +4,15 @@
    version = "1.0">
    <FileBreakpoints>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "blogio/BIOFeed.m"
-         timestampString = "375569017.417287"
+         timestampString = "379099536.906498"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "35"
-         endingLineNumber = "35"
+         startingLineNumber = "38"
+         endingLineNumber = "38"
          landmarkName = "-reload"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,39 +21,52 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "blogio/BIOFeed.m"
-         timestampString = "375569021.678855"
+         timestampString = "379099536.906498"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "55"
-         endingLineNumber = "55"
+         startingLineNumber = "60"
+         endingLineNumber = "60"
          landmarkName = "-feedParser:didFailWithError:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "blogio/BIOFeed.m"
-         timestampString = "375569022.941295"
+         timestampString = "379099536.906498"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "43"
-         endingLineNumber = "43"
+         startingLineNumber = "46"
+         endingLineNumber = "46"
          landmarkName = "-feedParser:didParseFeedInfo:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "blogio/BIOFeed.m"
-         timestampString = "375569024.235096"
+         timestampString = "379099536.906498"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
+         startingLineNumber = "50"
+         endingLineNumber = "50"
          landmarkName = "-feedParser:didParseFeedItem:"
          landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "blogio/BIODay.m"
+         timestampString = "379099536.906498"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "96"
+         endingLineNumber = "96"
+         landmarkName = "@implementation BIODay"
+         landmarkType = "3">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

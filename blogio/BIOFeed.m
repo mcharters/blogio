@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) NSString *url;
 @property (strong, nonatomic) MWFeedParser *parser;
+@property (strong, nonatomic) NSCalendar *cal;
 
 @end
 
@@ -26,6 +27,8 @@
         _parser.delegate = self;
         _parser.feedParseType = ParseTypeFull;
         _parser.connectionType = ConnectionTypeAsynchronously;
+        
+        _cal = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     }
     
     return self;
@@ -45,6 +48,8 @@
 
 - (void)feedParser:(MWFeedParser *)parser didParseFeedItem:(MWFeedItem *)item {
     NSLog(@"Got item: %@", [item description]);
+    
+    
 }
 
 - (void)feedParserDidFinish:(MWFeedParser *)parser {

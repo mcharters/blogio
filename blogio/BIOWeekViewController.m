@@ -7,7 +7,7 @@
 //
 
 #import "BIOWeekViewController.h"
-#import "BIOConstants.h"
+#import "BIODay.h"
 #import "BIOAddFeedViewController.h"
 #import "BIOFeedCollection.h"
 
@@ -44,8 +44,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // 7 days in a week
-    return 7;
+    return [[BIODay weekdays] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -53,31 +52,7 @@
     
     UITableViewCell *dayCell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    switch (indexPath.row) {
-        case Monday:
-            dayCell.textLabel.text = @"Monday";
-            break;
-        case Tuesday:
-            dayCell.textLabel.text = @"Tuesday";
-            break;
-        case Wednesday:
-            dayCell.textLabel.text = @"Wednesday";
-            break;
-        case Thursday:
-            dayCell.textLabel.text = @"Thursday";
-            break;
-        case Friday:
-            dayCell.textLabel.text = @"Friday";
-            break;
-        case Saturday:
-            dayCell.textLabel.text = @"Saturday";
-            break;
-        case Sunday:
-            dayCell.textLabel.text = @"Sunday";
-            break;
-        default:
-            break;
-    }
+    dayCell.textLabel.text = [NSString stringWithFormat:@"%@", [[BIODay weekdays] objectAtIndex:indexPath.row]];
     
     return dayCell;
 }
