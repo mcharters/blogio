@@ -16,7 +16,6 @@
 		C92728CE15605E130076E0CE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92728CC15605E130076E0CE /* MainStoryboard_iPhone.storyboard */; };
 		C92728D115605E130076E0CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92728CF15605E130076E0CE /* MainStoryboard_iPad.storyboard */; };
 		C92728D415605E130076E0CE /* BIOWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728D315605E130076E0CE /* BIOWeekViewController.m */; };
-		C92728DB15605E130076E0CE /* BIOFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92728DA15605E130076E0CE /* BIOFeedViewController.m */; };
 		C959233216988AEE008C99CE /* BIODay.m in Sources */ = {isa = PBXBuildFile; fileRef = C959233116988AED008C99CE /* BIODay.m */; };
 		C959233516989B9D008C99CE /* BIOTrackCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C959233416989B9D008C99CE /* BIOTrackCollection.m */; };
 		C9DAACF516628C760060CDCA /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACEF16628C760060CDCA /* MWFeedInfo.m */; };
@@ -26,6 +25,7 @@
 		C9DAACFF16628CB20060CDCA /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFB16628CB20060CDCA /* NSDate+InternetDateTime.m */; };
 		C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFD16628CB20060CDCA /* NSString+HTML.m */; };
 		C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */; };
+		C9F3DA8016E81F4200F15D06 /* BIODayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F3DA7F16E81F4200F15D06 /* BIODayViewController.m */; };
 		C9FFB8A11662A9450072CCB6 /* BIOAddFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */; };
 		C9FFB8A51662B0D80072CCB6 /* BIOFeedCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A41662B0D80072CCB6 /* BIOFeedCollection.m */; };
 		C9FFB8A81662B2080072CCB6 /* BIOFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A71662B2070072CCB6 /* BIOFeed.m */; };
@@ -46,8 +46,6 @@
 		C92728D015605E130076E0CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C92728D215605E130076E0CE /* BIOWeekViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIOWeekViewController.h; sourceTree = "<group>"; };
 		C92728D315605E130076E0CE /* BIOWeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOWeekViewController.m; sourceTree = "<group>"; };
-		C92728D915605E130076E0CE /* BIOFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIOFeedViewController.h; sourceTree = "<group>"; };
-		C92728DA15605E130076E0CE /* BIOFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIOFeedViewController.m; sourceTree = "<group>"; };
 		C959233016988AED008C99CE /* BIODay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIODay.h; sourceTree = "<group>"; };
 		C959233116988AED008C99CE /* BIODay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIODay.m; sourceTree = "<group>"; };
 		C959233316989B9C008C99CE /* BIOTrackCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOTrackCollection.h; sourceTree = "<group>"; };
@@ -67,6 +65,8 @@
 		C9DAACFD16628CB20060CDCA /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "lib/MWFeedParser/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
 		C9DAAD0116628CE90060CDCA /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.h"; sourceTree = "<group>"; };
 		C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		C9F3DA7E16E81F4200F15D06 /* BIODayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIODayViewController.h; sourceTree = "<group>"; };
+		C9F3DA7F16E81F4200F15D06 /* BIODayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIODayViewController.m; sourceTree = "<group>"; };
 		C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOAddFeedViewController.h; sourceTree = "<group>"; };
 		C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIOAddFeedViewController.m; sourceTree = "<group>"; };
 		C9FFB8A31662B0D80072CCB6 /* BIOFeedCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOFeedCollection.h; sourceTree = "<group>"; };
@@ -126,8 +126,6 @@
 				C92728CF15605E130076E0CE /* MainStoryboard_iPad.storyboard */,
 				C92728D215605E130076E0CE /* BIOWeekViewController.h */,
 				C92728D315605E130076E0CE /* BIOWeekViewController.m */,
-				C92728D915605E130076E0CE /* BIOFeedViewController.h */,
-				C92728DA15605E130076E0CE /* BIOFeedViewController.m */,
 				C92728C115605E130076E0CE /* Supporting Files */,
 				C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */,
 				C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */,
@@ -139,6 +137,8 @@
 				C959233116988AED008C99CE /* BIODay.m */,
 				C959233316989B9C008C99CE /* BIOTrackCollection.h */,
 				C959233416989B9D008C99CE /* BIOTrackCollection.m */,
+				C9F3DA7E16E81F4200F15D06 /* BIODayViewController.h */,
+				C9F3DA7F16E81F4200F15D06 /* BIODayViewController.m */,
 			);
 			path = blogio;
 			sourceTree = "<group>";
@@ -203,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BIO;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = C92728B015605E120076E0CE /* Build configuration list for PBXProject "blogio" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -243,7 +243,6 @@
 				C92728C715605E130076E0CE /* main.m in Sources */,
 				C92728CB15605E130076E0CE /* BIOAppDelegate.m in Sources */,
 				C92728D415605E130076E0CE /* BIOWeekViewController.m in Sources */,
-				C92728DB15605E130076E0CE /* BIOFeedViewController.m in Sources */,
 				C9DAACF516628C760060CDCA /* MWFeedInfo.m in Sources */,
 				C9DAACF616628C760060CDCA /* MWFeedItem.m in Sources */,
 				C9DAACF716628C760060CDCA /* MWFeedParser.m in Sources */,
@@ -256,6 +255,7 @@
 				C9FFB8A81662B2080072CCB6 /* BIOFeed.m in Sources */,
 				C959233216988AEE008C99CE /* BIODay.m in Sources */,
 				C959233516989B9D008C99CE /* BIOTrackCollection.m in Sources */,
+				C9F3DA8016E81F4200F15D06 /* BIODayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +295,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -321,6 +325,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
