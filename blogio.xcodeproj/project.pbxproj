@@ -25,6 +25,10 @@
 		C9DAACFF16628CB20060CDCA /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFB16628CB20060CDCA /* NSDate+InternetDateTime.m */; };
 		C9DAAD0016628CB20060CDCA /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAACFD16628CB20060CDCA /* NSString+HTML.m */; };
 		C9DAAD0316628CE90060CDCA /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */; };
+		C9EAF6B216F639440055BA04 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EAF6AF16F639440055BA04 /* TFHpple.m */; };
+		C9EAF6B316F639440055BA04 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EAF6B116F639440055BA04 /* TFHppleElement.m */; };
+		C9EAF6B616F639600055BA04 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EAF6B516F639600055BA04 /* XPathQuery.m */; };
+		C9EAF6B816F639E60055BA04 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EAF6B716F639E60055BA04 /* libxml2.dylib */; };
 		C9F3DA8016E81F4200F15D06 /* BIODayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F3DA7F16E81F4200F15D06 /* BIODayViewController.m */; };
 		C9FFB8A11662A9450072CCB6 /* BIOAddFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A01662A9450072CCB6 /* BIOAddFeedViewController.m */; };
 		C9FFB8A51662B0D80072CCB6 /* BIOFeedCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB8A41662B0D80072CCB6 /* BIOFeedCollection.m */; };
@@ -65,6 +69,13 @@
 		C9DAACFD16628CB20060CDCA /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "lib/MWFeedParser/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
 		C9DAAD0116628CE90060CDCA /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.h"; sourceTree = "<group>"; };
 		C9DAAD0216628CE90060CDCA /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "lib/MWFeedParser/Classes/NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		C9EAF6AE16F639440055BA04 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = lib/hpple/TFHpple.h; sourceTree = "<group>"; };
+		C9EAF6AF16F639440055BA04 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = lib/hpple/TFHpple.m; sourceTree = "<group>"; };
+		C9EAF6B016F639440055BA04 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = lib/hpple/TFHppleElement.h; sourceTree = "<group>"; };
+		C9EAF6B116F639440055BA04 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = lib/hpple/TFHppleElement.m; sourceTree = "<group>"; };
+		C9EAF6B416F639600055BA04 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = lib/hpple/XPathQuery.h; sourceTree = "<group>"; };
+		C9EAF6B516F639600055BA04 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = lib/hpple/XPathQuery.m; sourceTree = "<group>"; };
+		C9EAF6B716F639E60055BA04 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		C9F3DA7E16E81F4200F15D06 /* BIODayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIODayViewController.h; sourceTree = "<group>"; };
 		C9F3DA7F16E81F4200F15D06 /* BIODayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIODayViewController.m; sourceTree = "<group>"; };
 		C9FFB89F1662A9450072CCB6 /* BIOAddFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIOAddFeedViewController.h; sourceTree = "<group>"; };
@@ -80,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EAF6B816F639E60055BA04 /* libxml2.dylib in Frameworks */,
 				C92728BB15605E120076E0CE /* UIKit.framework in Frameworks */,
 				C92728BD15605E120076E0CE /* Foundation.framework in Frameworks */,
 				C92728BF15605E120076E0CE /* CoreGraphics.framework in Frameworks */,
@@ -109,6 +121,8 @@
 		C92728B915605E120076E0CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9EAF6B716F639E60055BA04 /* libxml2.dylib */,
+				C9EAF6AC16F639130055BA04 /* Hpple */,
 				C9DAACE816628B890060CDCA /* MWFeedParser */,
 				C92728BA15605E120076E0CE /* UIKit.framework */,
 				C92728BC15605E120076E0CE /* Foundation.framework */,
@@ -174,6 +188,27 @@
 				C9DAACF416628C760060CDCA /* MWFeedParser.m */,
 			);
 			name = MWFeedParser;
+			sourceTree = "<group>";
+		};
+		C9EAF6AC16F639130055BA04 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAF6AE16F639440055BA04 /* TFHpple.h */,
+				C9EAF6AF16F639440055BA04 /* TFHpple.m */,
+				C9EAF6B016F639440055BA04 /* TFHppleElement.h */,
+				C9EAF6B116F639440055BA04 /* TFHppleElement.m */,
+				C9EAF6AD16F639210055BA04 /* XPath */,
+			);
+			name = Hpple;
+			sourceTree = "<group>";
+		};
+		C9EAF6AD16F639210055BA04 /* XPath */ = {
+			isa = PBXGroup;
+			children = (
+				C9EAF6B416F639600055BA04 /* XPathQuery.h */,
+				C9EAF6B516F639600055BA04 /* XPathQuery.m */,
+			);
+			name = XPath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +291,9 @@
 				C959233216988AEE008C99CE /* BIODay.m in Sources */,
 				C959233516989B9D008C99CE /* BIOTrackCollection.m in Sources */,
 				C9F3DA8016E81F4200F15D06 /* BIODayViewController.m in Sources */,
+				C9EAF6B216F639440055BA04 /* TFHpple.m in Sources */,
+				C9EAF6B316F639440055BA04 /* TFHppleElement.m in Sources */,
+				C9EAF6B616F639600055BA04 /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +387,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blogio/blogio-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "blogio/blogio-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -360,6 +399,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blogio/blogio-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "blogio/blogio-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
