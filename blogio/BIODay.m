@@ -93,6 +93,10 @@ static NSArray *weekdays;
     return NO;
 }
 
+- (NSUInteger)hash {
+    return self.weekday;
+}
+
 - (id)copyWithZone:(NSZone *)zone {
     return [BIODay dayWithWeekday:self.weekday];
 }
