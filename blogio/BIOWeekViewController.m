@@ -26,8 +26,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.feedCollection = [[BIOFeedCollection alloc] init];
     
-    // for debug, add stereogum as a feed right away
-    [self.feedCollection addFeedWithURL:@"http://feeds.feedburner.com/stereogum/cBYa?format=xml"];
+    // for debug, add feed right away
+    [self.feedCollection addFeedWithURL:@"http://feeds.feedburner.com/GVSB"];
 }
 
 - (void)viewDidUnload

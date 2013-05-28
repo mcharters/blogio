@@ -33,7 +33,7 @@ static BIOTrackCollection *sharedInstance;
     }
 }
 
-- (void)addTrack:(NSString *)track forDay:(BIODay *)day {
+- (void)addTrack:(id<BIOTrack>)track forDay:(BIODay *)day {
     NSMutableArray *tracksForDay = [self.days objectForKey:day];
     if(tracksForDay == nil) {
         tracksForDay = [NSMutableArray arrayWithObject:track];

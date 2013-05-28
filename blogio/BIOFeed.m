@@ -12,6 +12,7 @@
 #import "BIODay.h"
 #import "TFHpple.h"
 #import "TFHppleElement.h"
+#import "BIOSoundCloudTrack.h"
 
 @interface BIOFeed () <MWFeedParserDelegate>
 
@@ -83,8 +84,8 @@
         // find out what day this file was attached
         for (NSDictionary *enclosure in item.enclosures) {
             NSString *trackURL = [enclosure objectForKey:@"url"];
-            NSLog(@"Adding track %@ on %@", trackURL, day);
-            [tracks addTrack:trackURL forDay:day];
+            NSLog(@"Would add track %@ on %@, but don't have an MP3Track object yet", trackURL, day);
+            //[tracks addTrack:trackURL forDay:day];
         }
     } else {
         // no enclosure, but maybe there's a stream we can grab.
@@ -112,7 +113,7 @@
             NSString *src = [e objectForKey:@"src"];
             if(src != nil && [src rangeOfString:@"soundcloud"].location != NSNotFound) {
                 NSLog(@"Adding track %@ on %@", src, post.day);
-                [tracks addTrack:src forDay:post.day];
+                [tracks addTrack:[[BIOSoundCloudTrack alloc] initWithURL:src] forDay:post.day];
             }
         }
     }

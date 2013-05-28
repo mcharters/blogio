@@ -9,6 +9,7 @@
 #import "BIODayViewController.h"
 #import "BIODay.h"
 #import "BIOTrackCollection.h"
+#import "BIOTrack.h"
 
 @interface BIODayViewController ()
 
@@ -65,7 +66,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     NSArray *tracks = [[BIOTrackCollection sharedInstance] tracksForDay:self.day];
-    cell.textLabel.text = (NSString*)[tracks objectAtIndex:indexPath.row];
+    id<BIOTrack> track = (id<BIOTrack>)[tracks objectAtIndex:indexPath.row];
+    cell.textLabel.text = [track name];
     
     return cell;
 }

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BIOTrack.h"
 
 @class BIODay;
 
@@ -14,7 +15,7 @@
 
 + (BIOTrackCollection*)sharedInstance;
 
-- (void)addTrack:(NSString*)track forDay:(BIODay*)day;
+- (void)addTrack:(id<BIOTrack>)track forDay:(BIODay*)day;
 - (NSArray*)tracksForDay:(BIODay*)day;
 
 @end

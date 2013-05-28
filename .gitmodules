@@ -4,3 +4,18 @@
 [submodule "lib/hpple"]
 	path = lib/hpple
 	url = git@github.com:mcharters/hpple.git
+[submodule "lib/CocoaSoundCloudAPI"]
+	path = lib/CocoaSoundCloudAPI
+	url = git@github.com:mcharters/CocoaSoundCloudAPI.git
+[submodule "lib/OAuth2Client"]
+	path = lib/OAuth2Client
+	url = git@github.com:mcharters/OAuth2Client.git
+[submodule "lib/JSONKit"]
+	path = lib/JSONKit
+	url = git@github.com:mcharters/JSONKit.git
+[submodule "lib/OHAttributedLabel"]
+	path = lib/OHAttributedLabel
+	url = git@github.com:mcharters/OHAttributedLabel.git
+[submodule "lib/CocoaSoundCloudUI"]
+	path = lib/CocoaSoundCloudUI
+	url = git@github.com:mcharters/CocoaSoundCloudUI.git
